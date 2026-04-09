@@ -1,0 +1,548 @@
+{
+  "business": {
+    "name": "ZURC CONSTRUCTION-GENERAL CONTRACTOR IN PORTLAND,OR",
+    "phone": "+15033095973",
+    "category": "remodeling contractor",
+    "city": "Portland",
+    "state": "OR"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-heritage-craft",
+      "categoryGroup": "roofing",
+      "name": "Heritage Craft",
+      "recipeFile": "roofing/heritage-craft.astro",
+      "colors": {
+        "primary": "#3D2E1F",
+        "primaryDark": "#251A10",
+        "primaryLight": "#D4C5B0",
+        "secondary": "#5C4A3A",
+        "accent": "#6B5335",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#5C4A3A",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "roofing/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Portland's Trusted Remodeling Experts",
+      "heroSubline": "Transforming Portland homes with quality craftsmanship and unwavering dedication. ZURC Construction: Building the future, one project at a time.",
+      "aboutTitle": "Crafting Portland's Future, One Space at a Time",
+      "aboutText": [
+        "ZURC Construction started with a simple goal: to provide Portland homeowners with honest, reliable remodeling services. We saw a need for contractors who understood the unique challenges of Portland's climate and housing stock, from the moisture issues plaguing our Craftsman bungalows to the earthquake risks we face as a region. We're a local team, invested in this community.",
+        "Our approach is built on clear communication, meticulous planning, and unwavering attention to detail. We believe in transparency every step of the way, from initial consultation to final walkthrough. We use quality materials and proven techniques to ensure lasting results, standing behind our work with pride.",
+        "Portland is our home, and we're committed to giving back. We actively support local organizations and prioritize sustainable practices in our projects. We strive to minimize our environmental impact and contribute to a thriving, resilient Portland for generations to come."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Expertise",
+          "description": "Deep understanding of Portland's unique building codes, climate, and architectural styles."
+        },
+        {
+          "title": "Transparent Process",
+          "description": "Clear communication, detailed proposals, and no hidden costs."
+        },
+        {
+          "title": "Quality Craftsmanship",
+          "description": "Skilled tradespeople, premium materials, and meticulous attention to detail."
+        },
+        {
+          "title": "Sustainable Practices",
+          "description": "Eco-friendly materials and waste reduction strategies for a greener Portland."
+        }
+      ],
+      "ctaHeadline": "Ready to Reimagine Your Home?",
+      "ctaSubline": "Contact ZURC Construction today for a free consultation and discover the possibilities."
+    },
+    "services": [
+      {
+        "slug": "kitchen-remodeling",
+        "name": "Kitchen Remodeling",
+        "shortDescription": "Transform your kitchen into the heart of your Portland home.",
+        "description": "The kitchen is more than just a place to cook; it's a gathering space, a creative hub, and the heart of your home. ZURC Construction specializes in transforming outdated or inefficient kitchens into beautiful, functional spaces that meet your specific needs. We handle every aspect of the remodel, from initial design and layout to cabinet installation, countertop fabrication, and appliance upgrades. Whether you're looking for a modern, minimalist design or a cozy, traditional feel, we'll work with you to create a kitchen that reflects your personal style and enhances your daily life.\n\nPortland kitchens face unique challenges, from moisture damage to space constraints in older homes. We're experts at addressing these issues, using moisture-resistant materials and innovative design solutions to maximize space and create a durable, beautiful kitchen that will last for years. We also stay up-to-date on the latest trends and technologies, offering options like smart appliances, energy-efficient lighting, and custom storage solutions.\n\nOur kitchen remodeling process is designed to be as seamless and stress-free as possible. We'll work closely with you to develop a detailed plan and budget, and we'll keep you informed every step of the way. We understand that kitchen remodels can be disruptive, so we strive to minimize downtime and complete the project as quickly and efficiently as possible. We're committed to delivering exceptional results that exceed your expectations.",
+        "process": [
+          "Consultation & Design",
+          "Material Selection",
+          "Demolition & Construction",
+          "Final Touches & Inspection"
+        ],
+        "benefits": [
+          "Increased Home Value",
+          "Improved Functionality",
+          "Enhanced Aesthetics",
+          "Energy Efficiency"
+        ],
+        "faq": [
+          {
+            "question": "How long does a kitchen remodel typically take?",
+            "answer": "The timeline for a kitchen remodel can vary depending on the scope of the project, but most remodels take between 4-8 weeks. We'll provide you with a detailed timeline during the initial consultation."
+          },
+          {
+            "question": "Do you handle the plumbing and electrical work?",
+            "answer": "Yes, we have licensed and experienced plumbers and electricians on our team who will handle all necessary plumbing and electrical work, ensuring that everything is up to code and functioning properly."
+          },
+          {
+            "question": "Can you help me with the design of my new kitchen?",
+            "answer": "Absolutely! Our design team can help you create a kitchen that is both beautiful and functional. We'll work with you to select the right materials, colors, and layout to meet your needs and preferences."
+          }
+        ]
+      },
+      {
+        "slug": "bathroom-remodeling",
+        "name": "Bathroom Remodeling",
+        "shortDescription": "Create your dream bathroom retreat with ZURC Construction.",
+        "description": "Your bathroom should be a sanctuary, a place to unwind and recharge. ZURC Construction specializes in transforming outdated or cramped bathrooms into spa-like retreats that meet your needs and reflect your personal style. From simple updates to complete overhauls, we handle every aspect of the remodel, including plumbing, electrical, tiling, and fixture installation.\n\nPortland bathrooms are particularly susceptible to moisture damage, given our climate. We use moisture-resistant materials and proven techniques to prevent mold and mildew growth, ensuring a healthy and durable bathroom that will last for years. We're also experts at maximizing space in small bathrooms, using innovative design solutions to create a functional and stylish space.\n\nWhether you're dreaming of a luxurious soaking tub, a walk-in shower with custom tile work, or a modern vanity with ample storage, we can bring your vision to life. We'll work closely with you to develop a detailed plan and budget, and we'll keep you informed every step of the way. Our goal is to create a bathroom that not only looks beautiful but also enhances your daily life.",
+        "process": [
+          "Design Consultation",
+          "Material Procurement",
+          "Demolition & Prep",
+          "Installation & Finishing"
+        ],
+        "benefits": [
+          "Increased Comfort",
+          "Improved Functionality",
+          "Enhanced Aesthetics",
+          "Water Conservation"
+        ],
+        "faq": [
+          {
+            "question": "What are some popular bathroom remodeling trends in Portland?",
+            "answer": "Some popular trends include walk-in showers, freestanding bathtubs, and incorporating natural elements like wood and stone. We can help you incorporate these trends into your bathroom remodel while staying true to your personal style."
+          },
+          {
+            "question": "How can I maximize space in a small bathroom?",
+            "answer": "We can use several strategies to maximize space, such as installing a wall-mounted vanity, using a corner shower, and incorporating clever storage solutions."
+          },
+          {
+            "question": "What type of ventilation is needed in a bathroom?",
+            "answer": "Proper ventilation is crucial to prevent moisture buildup and mold growth. We recommend installing a high-quality exhaust fan that vents to the outside."
+          }
+        ]
+      },
+      {
+        "slug": "basement-remodeling",
+        "name": "Basement Remodeling",
+        "shortDescription": "Unlock the hidden potential of your Portland basement.",
+        "description": "Don't let your basement be an underutilized space! ZURC Construction can transform your unfinished basement into a functional and inviting living area, adding valuable square footage to your Portland home. Whether you envision a home theater, a guest suite, a home office, or a playroom for the kids, we can bring your vision to life.\n\nBasements in Portland often present unique challenges, including moisture issues and low ceilings. We're experts at addressing these challenges, using waterproofing techniques to prevent water damage and innovative design solutions to maximize space and create a comfortable living environment. We also ensure that your basement remodel meets all local building codes and safety regulations.\n\nOur basement remodeling process includes everything from initial design and planning to framing, insulation, electrical, plumbing, and finishing. We'll work closely with you to create a space that meets your specific needs and budget, and we'll keep you informed every step of the way. We're committed to delivering exceptional results that will increase the value and enjoyment of your home.",
+        "process": [
+          "Initial Assessment",
+          "Design & Planning",
+          "Waterproofing & Insulation",
+          "Finishing & Detailing"
+        ],
+        "benefits": [
+          "Increased Living Space",
+          "Enhanced Home Value",
+          "Improved Comfort",
+          "Versatile Functionality"
+        ],
+        "faq": [
+          {
+            "question": "How do I address moisture issues in my basement?",
+            "answer": "We recommend installing a proper waterproofing system, including a sump pump and vapor barrier. We can also address any existing leaks or foundation cracks."
+          },
+          {
+            "question": "What permits are required for a basement remodel?",
+            "answer": "Permit requirements vary depending on the scope of the project, but typically you'll need permits for electrical, plumbing, and structural work. We'll handle all necessary permit applications for you."
+          },
+          {
+            "question": "How can I make my basement feel less like a basement?",
+            "answer": "We can use several strategies, such as installing larger windows, adding recessed lighting, and using light-colored paint and flooring."
+          }
+        ]
+      },
+      {
+        "slug": "deck-patio-construction",
+        "name": "Deck & Patio Construction",
+        "shortDescription": "Extend your living space outdoors with a custom deck or patio.",
+        "description": "Take advantage of Portland's beautiful summers with a custom-designed deck or patio from ZURC Construction. We specialize in creating outdoor living spaces that are both functional and aesthetically pleasing, providing the perfect setting for relaxation, entertaining, and enjoying the natural beauty of the Pacific Northwest.\n\nWe offer a wide range of decking and patio materials, including wood, composite, and concrete, and we'll help you choose the materials that best suit your needs and budget. We also offer a variety of design options, from simple decks to elaborate outdoor kitchens and living areas. We can even incorporate features like fire pits, pergolas, and outdoor lighting to create a truly unique and inviting space.\n\nPortland's climate can be tough on outdoor structures, so we use durable, weather-resistant materials and proven construction techniques to ensure that your deck or patio will last for years. We also ensure that your project meets all local building codes and safety regulations. Let us help you create the outdoor oasis of your dreams!",
+        "process": [
+          "Site Evaluation",
+          "Design & Material Selection",
+          "Permitting",
+          "Construction & Finishing"
+        ],
+        "benefits": [
+          "Increased Outdoor Living Space",
+          "Enhanced Home Value",
+          "Improved Aesthetics",
+          "Perfect for Entertaining"
+        ],
+        "faq": [
+          {
+            "question": "What are the best decking materials for Portland's climate?",
+            "answer": "Composite decking is a popular choice because it's durable, low-maintenance, and resistant to moisture and rot. Wood decking is another option, but it requires regular maintenance to prevent damage from the elements."
+          },
+          {
+            "question": "Do I need a permit to build a deck or patio?",
+            "answer": "Permit requirements vary depending on the size and scope of the project. We'll handle all necessary permit applications for you."
+          },
+          {
+            "question": "How can I protect my deck or patio from the elements?",
+            "answer": "We recommend applying a sealant or stain to protect the wood from moisture and UV damage. You can also cover your outdoor furniture during the winter months to extend its lifespan."
+          }
+        ]
+      },
+      {
+        "slug": "whole-house-remodeling",
+        "name": "Whole House Remodeling",
+        "shortDescription": "Transform your entire home with a comprehensive remodel.",
+        "description": "Ready for a complete home makeover? ZURC Construction specializes in whole-house remodeling projects, transforming outdated or dysfunctional homes into modern, stylish, and functional living spaces. We handle every aspect of the remodel, from initial design and planning to demolition, construction, and finishing.\n\nWhether you're looking to update your kitchen and bathrooms, add an addition, or completely reconfigure your floor plan, we can bring your vision to life. We'll work closely with you to develop a detailed plan and budget, and we'll keep you informed every step of the way. We understand that whole-house remodels can be disruptive, so we strive to minimize downtime and complete the project as quickly and efficiently as possible.\n\nPortland homes often have unique architectural features and challenges. We're experts at working with older homes, preserving their character while updating them for modern living. We also ensure that your remodel meets all local building codes and safety regulations. Let us help you create the home of your dreams!",
+        "process": [
+          "Comprehensive Consultation",
+          "Detailed Design & Planning",
+          "Permitting & Approvals",
+          "Complete Remodeling Services"
+        ],
+        "benefits": [
+          "Increased Home Value",
+          "Improved Functionality",
+          "Enhanced Aesthetics",
+          "Personalized Living Space"
+        ],
+        "faq": [
+          {
+            "question": "How long does a whole-house remodel typically take?",
+            "answer": "The timeline for a whole-house remodel can vary significantly depending on the scope of the project, but most remodels take between 6-12 months. We'll provide you with a detailed timeline during the initial consultation."
+          },
+          {
+            "question": "How much does a whole-house remodel cost?",
+            "answer": "The cost of a whole-house remodel depends on several factors, including the size of your home, the scope of the project, and the materials you choose. We'll provide you with a detailed estimate after the initial consultation."
+          },
+          {
+            "question": "How do I prepare for a whole-house remodel?",
+            "answer": "We recommend decluttering your home, packing up your belongings, and finding temporary housing during the remodel. We'll work with you to minimize disruption and make the process as smooth as possible."
+          }
+        ]
+      },
+      {
+        "slug": "exterior-remodeling",
+        "name": "Exterior Remodeling",
+        "shortDescription": "Boost curb appeal and protect your investment with exterior remodeling services.",
+        "description": "Your home's exterior is the first impression it makes, and it also plays a crucial role in protecting your investment from the elements. ZURC Construction offers a wide range of exterior remodeling services, including siding replacement, window and door installation, roofing repairs, and painting. We use high-quality materials and proven techniques to enhance the beauty, durability, and energy efficiency of your home.\n\nPortland's wet climate can be particularly hard on home exteriors. We're experts at addressing the challenges of moisture damage, rot, and mildew growth. We use weather-resistant materials and proper installation techniques to ensure that your home's exterior will withstand the elements for years to come. We also offer energy-efficient windows and doors that can help you save money on your energy bills.\n\nWhether you're looking to update your home's appearance, improve its energy efficiency, or protect it from the elements, we can help. We'll work closely with you to develop a detailed plan and budget, and we'll keep you informed every step of the way. Let us help you create a home exterior that you'll be proud of!",
+        "process": [
+          "Exterior Assessment",
+          "Material Selection & Design",
+          "Installation & Repairs",
+          "Final Inspection"
+        ],
+        "benefits": [
+          "Increased Curb Appeal",
+          "Improved Energy Efficiency",
+          "Enhanced Protection",
+          "Higher Home Value"
+        ],
+        "faq": [
+          {
+            "question": "What are the best siding materials for Portland's climate?",
+            "answer": "Fiber cement siding is a popular choice because it's durable, low-maintenance, and resistant to moisture and rot. Wood siding is another option, but it requires regular painting and maintenance to prevent damage from the elements."
+          },
+          {
+            "question": "How often should I replace my windows?",
+            "answer": "Most windows last for 15-20 years. If your windows are drafty, damaged, or difficult to open and close, it may be time to replace them."
+          },
+          {
+            "question": "How can I improve my home's energy efficiency?",
+            "answer": "Installing energy-efficient windows and doors, adding insulation, and sealing air leaks can significantly improve your home's energy efficiency."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Beaverton",
+        "slug": "beaverton-or",
+        "state": "OR",
+        "content": "ZURC CONSTRUCTION-GENERAL CONTRACTOR IN PORTLAND,OR is proud to offer comprehensive remodeling services to homeowners in Beaverton, Oregon. Known for its established neighborhoods and family-friendly atmosphere, Beaverton features a variety of home styles, particularly those built in the 1970s and 80s. Many of these homes are classic suburban ranch styles, perfect for modern updates and renovations. We understand the unique needs of Beaverton homeowners and are equipped to handle any remodeling project, big or small. \n\nOur team is experienced in addressing the specific challenges that come with remodeling older homes in Beaverton, such as outdated plumbing, electrical systems, and energy inefficiency. We can help you transform your Beaverton home into a modern, comfortable, and energy-efficient space that meets your family's needs and reflects your personal style. We are also familiar with Beaverton's permitting processes and regulations, ensuring a smooth and hassle-free remodeling experience.\n\nBeaverton's climate, with its mild, wet winters and persistent rain, can also impact your remodeling choices. We can advise you on materials and designs that are durable and weather-resistant, helping you protect your investment for years to come.",
+        "localContext": "Beaverton, Oregon, a city of approximately 100,000 residents, is characterized by its abundance of 1970s-80s suburban ranch homes and experiences mild, wet winters with persistent rain.",
+        "nearbyAreas": [
+          "Portland",
+          "Hillsboro",
+          "Tigard"
+        ]
+      },
+      {
+        "city": "Hillsboro",
+        "slug": "hillsboro-or",
+        "state": "OR",
+        "content": "ZURC CONSTRUCTION-GENERAL CONTRACTOR IN PORTLAND,OR extends its expert remodeling services to the growing community of Hillsboro, Oregon. As a hub of the tech corridor, Hillsboro boasts a significant amount of newer housing developments and modern architectural styles. We are well-versed in the latest trends and technologies in home remodeling, and we're ready to help you create the home of your dreams in Hillsboro. \n\nWhether you're looking to update your kitchen, renovate your bathroom, or add an addition to your home, our team has the skills and experience to deliver exceptional results. We understand the importance of energy efficiency and sustainable building practices, and we can incorporate these elements into your remodeling project to help you save money and reduce your environmental impact. We are also committed to providing transparent communication, detailed project planning, and on-time completion.\n\nHillsboro's climate shares the same mild, wet winters as the rest of the Portland metro area. We are experienced in selecting materials and designs that are appropriate for the local weather conditions, ensuring that your remodeling project will stand the test of time.",
+        "localContext": "Hillsboro, Oregon, with a population around 110,000, is known as a tech-corridor city with a prevalence of newer housing and experiences mild, wet winters with persistent rain.",
+        "nearbyAreas": [
+          "Beaverton",
+          "Forest Grove",
+          "Aloha"
+        ]
+      },
+      {
+        "city": "Lake Oswego",
+        "slug": "lake-oswego-or",
+        "state": "OR",
+        "content": "ZURC CONSTRUCTION-GENERAL CONTRACTOR IN PORTLAND,OR is pleased to offer its high-quality remodeling services to the discerning homeowners of Lake Oswego, Oregon. Known for its upscale lakefront properties and beautiful neighborhoods, Lake Oswego presents unique remodeling opportunities. We specialize in luxury home renovations and are dedicated to exceeding the expectations of our clients. \n\nFrom kitchen and bathroom remodels to whole-house renovations and custom home additions, we have the expertise to transform your Lake Oswego home into a stunning showpiece. We understand the importance of attention to detail, quality craftsmanship, and personalized service. We work closely with our clients to understand their vision and bring it to life with exceptional results. We also respect the unique architectural character of Lake Oswego homes and strive to preserve their integrity while incorporating modern amenities and design elements.\n\nLake Oswego's climate, characterized by mild, wet winters, requires careful consideration when selecting materials and designing outdoor spaces. We can help you choose durable and weather-resistant materials that will withstand the elements and maintain their beauty for years to come.",
+        "localContext": "Lake Oswego, Oregon, home to approximately 40,000 residents, is recognized for its upscale lakefront homes and also experiences mild, wet winters with persistent rain.",
+        "nearbyAreas": [
+          "West Linn",
+          "Tualatin",
+          "Portland"
+        ]
+      },
+      {
+        "city": "Tigard",
+        "slug": "tigard-or",
+        "state": "OR",
+        "content": "ZURC CONSTRUCTION-GENERAL CONTRACTOR IN PORTLAND,OR is a trusted remodeling contractor serving the homeowners of Tigard, Oregon. Tigard features a diverse range of housing styles, with a significant portion built in the 1970s and 80s. These homes often benefit from modern updates and renovations to improve their functionality, energy efficiency, and aesthetic appeal. We are experienced in working with these types of homes and can provide tailored remodeling solutions to meet your specific needs and budget. \n\nWhether you're looking to update your kitchen, renovate your bathroom, or create a more open and inviting living space, our team has the skills and expertise to deliver exceptional results. We are committed to providing transparent communication, detailed project planning, and on-time completion. We also understand the importance of minimizing disruption to your daily life during the remodeling process.\n\nTigard's climate, with its mild, wet winters, presents unique challenges for homeowners. We can help you choose materials and designs that are durable and weather-resistant, ensuring that your remodeling project will stand the test of time.",
+        "localContext": "Tigard, Oregon, with a population around 55,000, features many homes built in the 1970s-80s suburban style and experiences mild, wet winters with persistent rain.",
+        "nearbyAreas": [
+          "Tualatin",
+          "Beaverton",
+          "Lake Oswego"
+        ]
+      },
+      {
+        "city": "Tualatin",
+        "slug": "tualatin-or",
+        "state": "OR",
+        "content": "ZURC CONSTRUCTION-GENERAL CONTRACTOR IN PORTLAND,OR is dedicated to providing top-notch remodeling services in Tualatin, Oregon. Tualatin offers a mix of established neighborhoods and newer developments, creating diverse remodeling needs. We are equipped to handle any remodeling project, from updating older homes to creating modern living spaces in newer constructions.\n\nWe understand the importance of creating a home that reflects your personal style and meets your family's needs. Our team works closely with you throughout the entire remodeling process, from initial design concepts to final completion. We prioritize open communication, attention to detail, and a commitment to exceeding your expectations. Whether it's a kitchen remodel, bathroom renovation, or a whole-house transformation, we're here to bring your vision to life.\n\nTualatin, like other cities in the Portland metro area, experiences mild, wet winters. We are knowledgeable about selecting appropriate materials and construction techniques to withstand the local climate and ensure the longevity of your remodeling project.",
+        "localContext": "Tualatin, Oregon, offers a blend of established and newer housing, experiencing mild, wet winters.",
+        "nearbyAreas": [
+          "Tigard",
+          "Lake Oswego",
+          "Wilsonville"
+        ]
+      },
+      {
+        "city": "West Linn",
+        "slug": "west-linn-or",
+        "state": "OR",
+        "content": "ZURC CONSTRUCTION-GENERAL CONTRACTOR IN PORTLAND,OR is proud to serve the West Linn, Oregon community with exceptional remodeling services. West Linn is known for its beautiful residential areas and diverse architectural styles. We understand the unique character of West Linn homes and are dedicated to providing remodeling solutions that enhance their beauty and functionality.\n\nOur team of experienced professionals is committed to providing personalized service and exceptional craftsmanship. We work closely with you to understand your vision and create a remodeling plan that meets your specific needs and budget. From kitchen and bathroom renovations to whole-house remodels and custom additions, we have the expertise to transform your West Linn home into the home of your dreams.\n\nWest Linn's climate, characterized by mild, wet winters, requires careful consideration when selecting materials and designing outdoor spaces. We are experienced in choosing durable and weather-resistant materials that will withstand the elements and maintain their beauty for years to come.",
+        "localContext": "West Linn, Oregon, is known for beautiful residential areas and diverse architectural styles and experiences mild, wet winters.",
+        "nearbyAreas": [
+          "Lake Oswego",
+          "Wilsonville",
+          "Oregon City"
+        ]
+      },
+      {
+        "city": "Oregon City",
+        "slug": "oregon-city-or",
+        "state": "OR",
+        "content": "ZURC CONSTRUCTION-GENERAL CONTRACTOR IN PORTLAND,OR is pleased to offer comprehensive remodeling services to homeowners in Oregon City, Oregon. As one of the oldest cities in the Pacific Northwest, Oregon City boasts a rich history and a variety of architectural styles, from historic homes to modern residences. We are well-versed in the unique challenges and opportunities that come with remodeling homes in Oregon City, and we're committed to preserving the city's architectural heritage while creating modern, comfortable living spaces.\n\nWhether you're looking to restore a historic home, update a kitchen or bathroom, or add an addition to your property, our team has the skills and experience to deliver exceptional results. We understand the importance of attention to detail, quality craftsmanship, and personalized service. We work closely with our clients to understand their vision and bring it to life with exceptional results.\n\nOregon City's climate, characterized by mild, wet winters, requires careful consideration when selecting materials and designing outdoor spaces. We can help you choose durable and weather-resistant materials that will withstand the elements and maintain their beauty for years to come.",
+        "localContext": "Oregon City, Oregon, one of the oldest cities in the Pacific Northwest, has a mix of historic and modern homes, experiencing mild, wet winters.",
+        "nearbyAreas": [
+          "West Linn",
+          "Gladstone",
+          "Milwaukie"
+        ]
+      },
+      {
+        "city": "Milwaukie",
+        "slug": "milwaukie-or",
+        "state": "OR",
+        "content": "ZURC CONSTRUCTION-GENERAL CONTRACTOR IN PORTLAND,OR is dedicated to providing high-quality remodeling services to the residents of Milwaukie, Oregon. Known for its friendly atmosphere and convenient location, Milwaukie offers a mix of housing styles, from charming bungalows to modern townhomes. We are experienced in working with a variety of architectural styles and can provide tailored remodeling solutions to meet your specific needs and budget. \n\nWhether you're looking to update your kitchen, renovate your bathroom, or create a more open and inviting living space, our team has the skills and expertise to deliver exceptional results. We are committed to providing transparent communication, detailed project planning, and on-time completion. We also understand the importance of minimizing disruption to your daily life during the remodeling process.\n\nMilwaukie's climate, with its mild, wet winters, presents unique challenges for homeowners. We can help you choose materials and designs that are durable and weather-resistant, ensuring that your remodeling project will stand the test of time.",
+        "localContext": "Milwaukie, Oregon, is a friendly city with a mix of housing styles, experiencing mild, wet winters.",
+        "nearbyAreas": [
+          "Portland",
+          "Gladstone",
+          "Oregon City"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Kitchen Remodel",
+        "text": "ZURC Construction completely transformed our outdated kitchen. The team was professional, communicative, and the quality of the work is outstanding. We especially appreciated their attention to detail and commitment to staying on schedule. We highly recommend them!",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "John B.",
+        "rating": 4,
+        "service": "Basement Remodel",
+        "text": "We hired ZURC Construction to finish our basement, and we're very happy with the results. They were able to address the moisture issues and create a functional and comfortable living space. There were a few minor delays, but they communicated effectively and resolved the issues promptly.",
+        "date": "2025-02-20"
+      },
+      {
+        "name": "Emily K.",
+        "rating": 5,
+        "service": "Bathroom Remodel",
+        "text": "ZURC Construction did an amazing job remodeling our master bathroom. They helped us design a beautiful and functional space that perfectly meets our needs. The crew was respectful, clean, and efficient. We couldn't be happier!",
+        "date": "2024-12-10"
+      },
+      {
+        "name": "David L.",
+        "rating": 5,
+        "service": "Deck Construction",
+        "text": "We hired ZURC Construction to build a new deck in our backyard, and we're thrilled with the results. The deck is beautiful, sturdy, and perfectly designed for entertaining. The team was professional, reliable, and easy to work with.",
+        "date": "2024-11-05"
+      },
+      {
+        "name": "Jessica P.",
+        "rating": 4,
+        "service": "Exterior Remodeling",
+        "text": "ZURC Construction replaced the siding on our house, and it looks fantastic! They were able to match the original style of the house while using modern, durable materials. The project was completed on time and within budget. We would definitely use them again.",
+        "date": "2024-10-22"
+      },
+      {
+        "name": "Michael S.",
+        "rating": 5,
+        "service": "Whole House Remodeling",
+        "text": "ZURC Construction managed our whole-house remodel with expertise and professionalism. They transformed our outdated home into a modern, functional, and beautiful living space. The team was responsive, communicative, and committed to delivering exceptional results. We highly recommend them for any remodeling project!",
+        "date": "2024-09-18"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "ZURC Construction | Portland Remodeling",
+        "description": "Trusted remodeling contractor in Portland, OR. Kitchens, bathrooms, basements, decks & more. Call +15033095973 for a free quote!"
+      },
+      "about": {
+        "title": "About ZURC Construction | Portland, OR",
+        "description": "Learn about ZURC Construction, a leading remodeling contractor in Portland. Our values, expertise, and commitment to quality."
+      },
+      "services": {
+        "title": "Remodeling Services | ZURC Construction",
+        "description": "Comprehensive remodeling services in Portland, OR. Kitchen remodeling, bathroom remodeling, basement finishing, decks, patios & more."
+      },
+      "contact": {
+        "title": "Contact ZURC Construction | Portland, OR",
+        "description": "Contact ZURC Construction for your remodeling needs in Portland. Get a free consultation and estimate. Call us at +15033095973."
+      },
+      "reviews": {
+        "title": "ZURC Construction Reviews | Portland, OR",
+        "description": "Read reviews from satisfied ZURC Construction customers in Portland. See why we're a trusted choice for remodeling projects."
+      },
+      "service-areas": {
+        "title": "ZURC Construction Service Areas",
+        "description": "ZURC Construction serves Portland, Beaverton, Hillsboro, Lake Oswego, and Tigard. Expert remodeling services in the Portland metro area."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "kitchen-remodeling": "/images/service-kitchen-remodeling.webp",
+      "bathroom-remodeling": "/images/service-bathroom-remodeling.webp",
+      "basement-remodeling": "/images/service-basement-remodeling.webp",
+      "deck-patio-construction": "/images/service-deck-patio-construction.webp",
+      "whole-house-remodeling": "/images/service-whole-house-remodeling.webp",
+      "exterior-remodeling": "/images/service-exterior-remodeling.webp"
+    },
+    "servicesResponsive": {
+      "kitchen-remodeling": {
+        "src": "/images/service-kitchen-remodeling.webp",
+        "srcset": "/images/service-kitchen-remodeling-400w.webp 400w, /images/service-kitchen-remodeling-800w.webp 800w, /images/service-kitchen-remodeling-1200w.webp 1200w, /images/service-kitchen-remodeling.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "bathroom-remodeling": {
+        "src": "/images/service-bathroom-remodeling.webp",
+        "srcset": "/images/service-bathroom-remodeling-400w.webp 400w, /images/service-bathroom-remodeling-800w.webp 800w, /images/service-bathroom-remodeling-1200w.webp 1200w, /images/service-bathroom-remodeling.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "basement-remodeling": {
+        "src": "/images/service-basement-remodeling.webp",
+        "srcset": "/images/service-basement-remodeling-400w.webp 400w, /images/service-basement-remodeling-800w.webp 800w, /images/service-basement-remodeling-1200w.webp 1200w, /images/service-basement-remodeling.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "deck-patio-construction": {
+        "src": "/images/service-deck-patio-construction.webp",
+        "srcset": "/images/service-deck-patio-construction-400w.webp 400w, /images/service-deck-patio-construction-800w.webp 800w, /images/service-deck-patio-construction-1200w.webp 1200w, /images/service-deck-patio-construction.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "whole-house-remodeling": {
+        "src": "/images/service-whole-house-remodeling.webp",
+        "srcset": "/images/service-whole-house-remodeling-400w.webp 400w, /images/service-whole-house-remodeling-800w.webp 800w, /images/service-whole-house-remodeling-1200w.webp 1200w, /images/service-whole-house-remodeling.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "exterior-remodeling": {
+        "src": "/images/service-exterior-remodeling.webp",
+        "srcset": "/images/service-exterior-remodeling-400w.webp 400w, /images/service-exterior-remodeling-800w.webp 800w, /images/service-exterior-remodeling-1200w.webp 1200w, /images/service-exterior-remodeling.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}

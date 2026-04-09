@@ -1,0 +1,30 @@
+:root {
+  --color-primary: #3D2E1F;
+  --color-primary-dark: #251A10;
+  --color-primary-light: #D4C5B0;
+  --color-secondary: #5C4A3A;
+  --color-accent: #6B5335;
+  --color-background: #F5F2ED;
+  --color-background-alt: #5C4A3A;
+  --color-surface: #EDEAE4;
+  --color-text: #1A1510;
+  --color-text-light: #4A4540;
+  --color-text-on-dark: #F5F2ED;
+  --color-border: #D5CEBC;
+  --font-heading: 'Playfair Display', sans-serif;
+  --font-body: 'Libre Franklin', sans-serif;
+  --font-heading-weight: 600;
+  --font-body-weight: 400;
+  --heading-style: normal;
+  --type-scale: 1.25;
+  --radius: 4px;
+  --radius-button: 4px;
+  --radius-card: 6px;
+  --section-padding: 4.5rem;
+  --spacing-scale: 1;
+  --heading-scale: 1.2;
+  --shadow-intensity: 0.75;
+  --anim-distance: 24px;
+  --anim-duration: 0.6s;
+  --anim-stagger: 80ms;
+}

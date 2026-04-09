@@ -1,0 +1,244 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { siteConfig } from "../lib/site-config";
+import StickyMinimal from "../../components/nav/StickyMinimal.astro";
+import MultiColumn from "../../components/footer/MultiColumn.astro";
+
+const biz = siteConfig.business;
+const currentYear = new Date().getFullYear();
+---
+
+<BaseLayout
+  title={`Terms of Service | ${biz.name}`}
+  description={`Terms of Service for ${biz.name}. Please read these terms carefully before using our website or services.`}
+>
+  <StickyMinimal slot="nav" />
+
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="animate-fade-up">Terms of Service</h1>
+      <p class="hero-sub">Please read these terms carefully</p>
+    </div>
+  </section>
+
+  <section class="section-padding">
+    <div class="legal-container">
+      <p class="last-updated">Last Updated: January 1, {currentYear}</p>
+
+      <p class="intro">
+        Welcome to the website of {biz.name} ("Company," "we," "us," or "our"). By accessing or using
+        our website and services, you agree to be bound by these Terms of Service. If you do not agree
+        with any part of these terms, please do not use our website or services.
+      </p>
+
+      <h2>1. Acceptance of Terms</h2>
+      <p>
+        By accessing our website, submitting a form, requesting an estimate, or otherwise using our services,
+        you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and
+        our <a href="/privacy">Privacy Policy</a>. These terms apply to all visitors, users, and others
+        who access or use our website and services.
+      </p>
+
+      <h2>2. Services Description</h2>
+      <p>
+        {biz.name} provides {biz.category.toLowerCase()} services in {biz.city}, {biz.state} and
+        surrounding areas. Our website provides information about our services, allows you to request
+        free estimates, and facilitates communication with our team.
+      </p>
+      <p>
+        All service descriptions, project examples, and related content on our website are for informational
+        purposes only and do not constitute a binding offer or guarantee of specific results.
+      </p>
+
+      <h2>3. Estimates and Pricing</h2>
+      <p>
+        Estimates provided by {biz.name} are offered free of charge and are intended as approximate
+        projections based on the information available at the time. Please be aware of the following:
+      </p>
+      <ul>
+        <li>All estimates are <strong>non-binding</strong> and subject to change after on-site inspection.</li>
+        <li>Final pricing may vary based on actual project scope, materials, site conditions, and other
+          factors discovered during inspection or work.</li>
+        <li>An estimate does not create a contractual obligation for either party.</li>
+        <li>A separate written contract or agreement will govern the terms of any work performed.</li>
+        <li>We reserve the right to decline any project at our discretion.</li>
+      </ul>
+
+      <h2>4. Communication Consent</h2>
+      <p>
+        By submitting a form on our website, calling us, or otherwise providing your contact information,
+        you consent to receive communications from {biz.name}. These communications may include:
+      </p>
+      <ul>
+        <li>Phone calls and text messages regarding your inquiry or estimate</li>
+        <li>Appointment confirmations and reminders</li>
+        <li>Follow-up communications about our services</li>
+        <li>Promotional offers and service updates</li>
+      </ul>
+      <p>
+        You may opt out of communications at any time. See our <a href="/privacy">Privacy Policy</a> for
+        full details on SMS/text message consent.
+      </p>
+
+      <h2>5. Intellectual Property</h2>
+      <p>
+        All content on this website, including but not limited to text, graphics, logos, images, photographs,
+        videos, and software, is the property of {biz.name} or its content suppliers and is protected by
+        United States and international copyright, trademark, and other intellectual property laws.
+      </p>
+      <p>
+        You may not reproduce, distribute, modify, create derivative works from, publicly display, or
+        exploit any content from our website without prior written consent from {biz.name}.
+      </p>
+
+      <h2>6. Limitation of Liability</h2>
+      <p>
+        To the fullest extent permitted by applicable law, {biz.name} and its owners, officers, employees,
+        agents, and affiliates shall not be liable for any indirect, incidental, special, consequential,
+        or punitive damages, including but not limited to loss of profits, data, or goodwill, arising out
+        of or in connection with:
+      </p>
+      <ul>
+        <li>Your use of or inability to use our website or services</li>
+        <li>Any errors or omissions in website content</li>
+        <li>Any unauthorized access to or use of our servers or personal information</li>
+        <li>Any interruption or cessation of transmission to or from our website</li>
+      </ul>
+      <p>
+        Our total liability for any claims arising under these terms shall not exceed the amount paid by you,
+        if any, for accessing our website.
+      </p>
+
+      <h2>7. Indemnification</h2>
+      <p>
+        You agree to indemnify, defend, and hold harmless {biz.name}, its owners, officers, employees,
+        agents, and affiliates from and against any and all claims, damages, losses, liabilities, costs,
+        and expenses (including reasonable attorneys' fees) arising out of or related to:
+      </p>
+      <ul>
+        <li>Your use of our website or services</li>
+        <li>Your violation of these Terms of Service</li>
+        <li>Your violation of any rights of a third party</li>
+        <li>Any content you submit or transmit through our website</li>
+      </ul>
+
+      <h2>8. Governing Law</h2>
+      <p>
+        These Terms of Service shall be governed by and construed in accordance with the laws of the
+        State of {biz.state}, without regard to its conflict of law provisions. Any legal action or
+        proceeding arising under these terms shall be brought exclusively in the courts located in
+        {biz.state}, and you consent to the jurisdiction of such courts.
+      </p>
+
+      <h2>9. Dispute Resolution</h2>
+      <p>
+        In the event of any dispute, claim, or controversy arising out of or relating to these Terms
+        of Service, the parties agree to first attempt to resolve the matter through good-faith
+        negotiation. If the dispute cannot be resolved through negotiation within thirty (30) days,
+        either party may pursue resolution through binding arbitration or the courts as described in
+        Section 8 above.
+      </p>
+
+      <h2>10. Changes to Terms</h2>
+      <p>
+        We reserve the right to update or modify these Terms of Service at any time without prior notice.
+        Changes become effective immediately upon posting to this page. Your continued use of our website
+        after any modifications constitutes your acceptance of the revised terms. We encourage you to
+        review this page periodically.
+      </p>
+
+      <h2>11. Contact Information</h2>
+      <p>If you have questions about these Terms of Service, please contact us:</p>
+      <div class="contact-block">
+        <p><strong>{biz.name}</strong></p>
+        <p>Phone: <a href={`tel:${biz.phone}`}>{biz.phone}</a></p>
+        {biz.email && <p>Email: <a href={`mailto:${biz.email}`}>{biz.email}</a></p>}
+      </div>
+    </div>
+  </section>
+
+  <MultiColumn slot="footer" />
+</BaseLayout>
+
+<style>
+  .page-hero {
+    padding: 8rem 0 3rem;
+    background: var(--color-background-alt);
+    color: var(--color-text-on-dark);
+  }
+  .page-hero h1 { margin-bottom: 0.5rem; }
+  .hero-sub { color: rgba(255,255,255,0.65); font-size: 1.1rem; }
+
+  .legal-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  .last-updated {
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+    font-style: italic;
+    margin-bottom: 2rem;
+  }
+
+  .intro {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: var(--color-text);
+    margin-bottom: 2.5rem;
+  }
+
+  h2 {
+    font-family: var(--font-heading);
+    font-weight: var(--font-heading-weight);
+    font-size: 1.35rem;
+    color: var(--color-text);
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--color-border, #e5e7eb);
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-text-light);
+    margin-bottom: 1rem;
+  }
+
+  a {
+    color: var(--color-primary);
+    text-decoration: none;
+  }
+  a:hover { text-decoration: underline; }
+
+  ul {
+    margin: 0.5rem 0 1.5rem 1.5rem;
+    padding: 0;
+  }
+
+  li {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-text-light);
+    margin-bottom: 0.4rem;
+  }
+
+  .contact-block {
+    background: var(--color-surface, #f9fafb);
+    border: 1px solid var(--color-border, #e5e7eb);
+    border-radius: var(--radius-card, 8px);
+    padding: 1.5rem;
+    margin: 1rem 0 1.5rem;
+  }
+
+  .contact-block p { margin-bottom: 0.3rem; }
+  .contact-block a { color: var(--color-primary); text-decoration: none; }
+  .contact-block a:hover { text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    .legal-container { padding: 0 1rem; }
+    h2 { font-size: 1.2rem; }
+  }
+</style>
